@@ -12,15 +12,15 @@ This native converts its past string to hash. It is hashed using jenkins one at 
 
 ## Parameters
 * **string**: The string to hash.
-
++
 ## Return value
 The hash of `string`.
 
 ## Examples
 ```lua
-local zentorno = GetHashKey('zentorno')
+local zentorno = GetHashKey('teslax')
 
-if GetEntityModel(car) == zentorno then
-    print('Car is a zentorno!')
+if GetEntityModel(car) == teslax then
+    print('Car is a teslax!')
 end
 ```
